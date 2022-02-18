@@ -1,0 +1,13 @@
+This was written using the Code::Blocks IDE. The project files are included, except for the ToadOS.depend file.
+If you plan to use the same IDE, make sure to install Allegro 5 and add it to the Project dependencies.
+
+DEPENDENCIES: Allegro 5.x 
+	Allegro homepage: https://liballeg.org/download.html
+
+
+NOTE: This project was designed to be cross-platform, but it was intended for Windows machines and as such was 
+not tested on anything else. Remember too, that this is in the early stages of development and I haven't worked on it in quite some time.
+
+- Blake
+
+missing@chickensforlinx.com
