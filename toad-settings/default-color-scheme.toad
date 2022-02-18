@@ -1,0 +1,18 @@
+# Default color scheme for toados GUI
+
+<color>
+main-bg:				0 0 0
+main-font:				50 50 50
+input-bg:				198 198 198
+input-bg-active:		220 20 20
+input-font: 			20 20 20
+input-border:			142 142 142
+input-border-active:	200 50 50
+button-bg:				255 0 0
+button-font:			50 0 50
+button-alt-bg:			200 60 120
+button-alt-font:		150 0 50
+view-bg:				200 200 200
+view-font:				40 40 40
+view-alt-bg:			230 230 230
+view-alt-font:			100 40 40

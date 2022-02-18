@@ -1,0 +1,12 @@
+# -- WELCOME TO THE SETTINGS FILE FOR TOADOS GUI TOOLTIPS --
+# This file contains the defaults for all tooltip appearance and behaviors
+
+<string>
+TOOLTIP_ENABLE			YES		# Can be either "YES" or "NO"
+TOOLTIP_STYLE_SPROUT	FADE	# Options are "fade", "zoom" and "instant" (instant is basically... no style)
+TOOLTIP_STYLE_WILT		FADE	# Options are: FADE | ZOOM | INSTANT
+TOOLTIP_TYPE			BUBBLE	# Options are: BUBBLE | RECT | ROUNDED
+<int>
+TOOLTIP_DELAY			500		# Delay before sprout on MouseOver in milliseconds
+TOOLTIP_SPROUT			200		# Time in ms for tooltip sprout effect
+TOOLTIP_WILT			200		# Time in ms for tooltip wilt effect

@@ -1,0 +1,34 @@
+# Welcome to the default toados settings file.
+# -----------------------------
+# Much can be changed from within the program, but sometimes it just feels good to get your hands dirty.
+# If you accidentally delete this file or mess up the variables, don't worry! ToadOS will generate a
+# brand new default_settings file and it will use that. But if that happens, your changes will be lost...
+# ... so maybe save a backup just in case.
+#
+# Anyways -- Have fun meddling about! - Blake
+
+# RUNTIME VARIABLES
+<int>
+	sfx_volume		= 70			# 0 - 100 (ToadOS volume is independent from the system volume. Set to 0 and audio is muted)
+<string>
+	truetype		= YES			# if "NO" then basic font will be used (faster performance)
+	debug			= YES			# only set this to YES when debugging code or reporting/replicating a problem
+	fullscreen		= YES			# possible values are YES|NO
+	sfx_mute		= NO			# YES|NO (Audio module still loads at startup if 'audio = YES', the sound is just muted)
+
+# GRAPHICS ETC.
+	prefer_ttf		= YES			# System will use TrueType fonts when possible
+	aspect_ratio	= AUTO			# AUTO|WIDE|CLASSIC
+<int>
+	display_width	= 920			# The default dimensions to use when launching the program
+	display_height 	= 700			#
+
+
+# SYSTEM SETTINGS
+<string>
+	runlevel		= SATELLITE		# Specify how the program should act. Arguments: SATELLITE|SERVER
+	network			= INTERNET		# NO|INTERNET|TOADNET|LAN (Either offline, internet access, store-to-store access only, or just local)
+	fs_mode			= AUTO			# AUTO|FORCE|NEVER (Either use the runtime variable, always force fullscreen, or never allow it)
+	audio			= YES
+
+
