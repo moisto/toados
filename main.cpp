@@ -71,7 +71,7 @@ TS_STR::TS_STR(ALLEGRO_FONT* f, int c) {
 
 
 
-/* These are some global functions and other shit that need a home... */
+/* These are some global functions and other vars that need a home... */
 
 
 ALLEGRO_DISPLAY* display = NULL;
